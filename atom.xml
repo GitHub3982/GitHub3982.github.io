@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-08-08T07:28:10.009Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>HongNimA</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/08/23/hello-world/"/>
+    <id>http://yoursite.com/2019/08/23/hello-world/</id>
+    <published>2019-08-23T14:16:54.465Z</published>
+    <updated>2019-08-08T07:28:10.009Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇</title>
+    <link href="http://yoursite.com/2019/08/08/%E7%AC%AC%E4%BA%8C%E7%AF%87/"/>
+    <id>http://yoursite.com/2019/08/08/第二篇/</id>
+    <published>2019-08-08T08:21:54.000Z</published>
+    <updated>2019-08-13T04:11:58.178Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>夏婉安 - 梦游人的梦<br>词：夏婉安<br>曲：夏婉安</p><a id="more"></a><p>sz<br>夏婉安 - 梦游人的梦<br>词：夏婉安<br>曲：夏婉安<br>下雨了<br>我一个人<br>迷失在这沉沉的梦中<br>什么都无法看到<br>就在这漆黑的雨夜<br>等待着你的解救<br>那个人<br>你在哪里<br>你快些出现<br>带我走出<br>这冰冷的梦魇<br>无需你爱我<br>哪怕只借我一双手<br>带着我离开<br>天黑了霓虹暗了<br>悲伤独自搁着<br>冰冷的床头影子蜷缩着<br>我是一个可怜的梦游人<br>游走在雨的世界里<br>来回的走着<br>地面雨圈里<br>寻找你的颜色<br>却忘了这是<br>我一个人的梦呢<br>我多想醒来<br>不再受伤害<br>像梦游人一样<br>期待光明和未来<br>如果是场梦<br>别让我醒来<br>雨夜才能感受<br>你假装给的温暖<br>视线模糊了<br>背影画面远了<br>雨下大了<br>痛在全身蔓延着<br>支离破碎的<br>除了泪还有心呢<br>我像个傻瓜一样的<br>守在角落<br>想你还会回头<br>抱紧我说爱我<br>可是梦的幸福<br>早已被雨水淹没<br>我多么不舍<br>不想你会痛<br>像一个梦游人<br>会出现在谁梦中<br>我是个公主<br>被困在梦境<br>就算王子深吻<br>也不会睁开眼睛<br>时间被分割<br>你对我的好<br>是我这一辈子<br>无法忘却的依靠<br>我要的世界<br>变成了雨季<br>眼泪滑过可否<br>滴落一颗在你心里<br>啊<br>rap:想起晴天里<br>你曾紧握着我的手<br>你说亲爱的让我<br>带你走到世界的尽头<br>最后 却看着你们<br>幸福的背影<br>一点一点一点一点的<br>消失在夕阳中<br>雨水打湿了脸颊我在<br>寒冷中不停的发抖<br>我不是心很痛<br>我不是不正常<br>我不是不想要<br>温暖和光亮<br>我只是一个梦游人<br>无法摆脱这揪心的噩梦<br>我多想醒来 不再受伤害<br>像梦游人一样<br>期待光芒和未来<br>如果是场梦<br>别让我醒来<br>雨夜才能感受<br>你假装给的温暖<br>我多想醒来<br>rap:谁会对我说<br>这原本就是一场梦呢<br>醒就醒了谁还会<br>再提起什么呢<br>说是梦了谁<br>出现过又能怎样呢<br>醒了睁开眼了<br>还不是自己生活么<br>爱了痛了分了散了<br>留恋还有意义么<br>走了淡了远了忘了<br>这样做还值得么<br>我不是醒不来<br>我不是放不开<br>我只是一个梦游人<br>我还在期待着爱</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;夏婉安 - 梦游人的梦&lt;br&gt;词：夏婉安&lt;br&gt;曲：夏婉安&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="yls" scheme="http://yoursite.com/categories/yls/"/>
+    
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://yoursite.com/2019/08/08/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2019/08/08/第一篇文章/</id>
+    <published>2019-08-08T07:30:38.000Z</published>
+    <updated>2019-08-13T01:21:48.293Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>sjidlass<br>sadk</p><p>s<br>ad</p><p>asd</p><p>as<br>d<br>ads<br>a</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

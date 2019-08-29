@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
-    第一篇文章 |
+    Tag: Hexo |
     
     知音圈</title>
   
@@ -20,96 +20,75 @@
   <script src="/js/pace.min.js"></script>
 </head>
 </html>
+<link href="https://cdn.staticfile.org/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+<style>
+::-webkit-scrollbar {  //隐藏滚轮display: none;
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: #eee;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background: #666;
+}
+</style>
 <body>
 <main class="content">
   <section class="outer">
-  
-
-<article id="post-第一篇文章" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
-  
-  <div class="article-inner">
+  <article class="articles">
     
-      <header class="article-header">
+    <h1 class="page-type-title">#&nbspHexo</h1>
+
+    
+    
+    
+      
+      
         
-  
-    <h1 class="article-title" itemprop="name">
-      第一篇文章
-    </h1>
-  
-  
-
-
-
-
-      </header>
-    
-
-    
-      <div class="article-meta">
-        <a href="/2019/08/08/第一篇文章/" class="article-date">
-  <time datetime="2019-08-08T07:30:38.000Z" itemprop="datePublished">2019-08-08</time>
+        
+    <div class="archives-wrap">
+      <div class="archive-year-wrap">
+        <a href="/archives/2019" class="archive-year">2019</a>
+      </div>
+      <div class="archives">
+        
+        <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2019/08/08/hello-world/" class="archive-article-date">
+  <time datetime="2019-08-08T08:21:54.000Z" itemprop="datePublished">08/08</time>
 </a>
+      
+  
+    <h2 itemprop="name">
+      <a class="archive-article-title" href="/2019/08/08/hello-world/">Hello World</a>
+    </h2>
+  
+  
+
+
+
+
+    </header>
+    
+    
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    
+  </div>
+</article>
+        
         
       </div>
-    
-
-    
-      
-
-
-
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-        <p>sjidlass<br>sadk</p>
-<p>s<br>ad</p>
-<p>asd</p>
-<p>as<br>d<br>ads<br>a</p>
-
-      
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/08/第一篇文章/" data-id="cjztdfrka00005wq06vuje0h0"
-         class="article-share-link">分享</a>
-      
-    </footer>
-
-  </div>
-
-  
-    
-  <nav class="article-nav">
-    
-      <a href="/2019/08/08/第二篇/" class="article-nav-link">
-        <strong class="article-nav-caption">前一篇</strong>
-        <div class="article-nav-title">
-          
-            第二篇
-          
-        </div>
-      </a>
-    
-    
-  </nav>
-
-
-  
-
-  
     
   
 
-</article>
-
-
-
+  
 </section>
   <footer class="footer">
   <div class="outer">
@@ -122,16 +101,16 @@
     </div>
     <ul class="list-inline">
       <li>&copy; 2019 知音圈</li>
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>Theme  <a href="javascript:;">Ocean</a></li>
+      <li>Powered by <a>Hexo</a></li>
+      <li>Theme  <a>Ocean</a></li>
     </ul>
   </div>
 </footer>
 
 </main>
 
-<aside class="sidebar sidebar-specter">
-  
+  <aside class="sidebar">
+    
     <button class="navbar-toggle"></button>
 <nav class="navbar">
   
@@ -205,24 +184,22 @@
 
 
 
-  <script src="/js/tocbot.min.js"></script>
-  <script>
-    // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
-    tocbot.init({
-      tocSelector: '.tocbot',
-      contentSelector: '.article-entry',
-      headingSelector: 'h1, h2, h3, h4, h5, h6',
-      hasInnerContainers: true,
-      scrollSmooth: true,
-      positionFixedSelector: '.tocbot',
-      positionFixedClass: 'is-position-fixed',
-      fixedSidebarOffset: 'auto',
-    });
-  </script>
-
 
 <script src="/js/ocean.js"></script>
 
 </body>
 </html>
 <script type="text/javascript" src="../dist/music.js"></script>
+<script src="js/scrollReveal.js"></script>
+</script>
+
+	  <script>
+			  $(function(){
+    $('div img').addClass('wdata-scroll-reveal');
+});
+</script>
+<script>
+window.scrollReveal = new scrollReveal();
+//或者，elem 为动画元素的任何级别的父元素
+window.scrollReveal2 = new scrollReveal({elem: document.getElementById('srcontainer')});
+</script>	

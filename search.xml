@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>2019/08/23/hello-world/</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[第二篇]]></title>
-    <url>2019/08/08/%E7%AC%AC%E4%BA%8C%E7%AF%87/</url>
-    <content type="text"><![CDATA[夏婉安 - 梦游人的梦词：夏婉安曲：夏婉安 sz夏婉安 - 梦游人的梦词：夏婉安曲：夏婉安下雨了我一个人迷失在这沉沉的梦中什么都无法看到就在这漆黑的雨夜等待着你的解救那个人你在哪里你快些出现带我走出这冰冷的梦魇无需你爱我哪怕只借我一双手带着我离开天黑了霓虹暗了悲伤独自搁着冰冷的床头影子蜷缩着我是一个可怜的梦游人游走在雨的世界里来回的走着地面雨圈里寻找你的颜色却忘了这是我一个人的梦呢我多想醒来不再受伤害像梦游人一样期待光明和未来如果是场梦别让我醒来雨夜才能感受你假装给的温暖视线模糊了背影画面远了雨下大了痛在全身蔓延着支离破碎的除了泪还有心呢我像个傻瓜一样的守在角落想你还会回头抱紧我说爱我可是梦的幸福早已被雨水淹没我多么不舍不想你会痛像一个梦游人会出现在谁梦中我是个公主被困在梦境就算王子深吻也不会睁开眼睛时间被分割你对我的好是我这一辈子无法忘却的依靠我要的世界变成了雨季眼泪滑过可否滴落一颗在你心里啊rap:想起晴天里你曾紧握着我的手你说亲爱的让我带你走到世界的尽头最后 却看着你们幸福的背影一点一点一点一点的消失在夕阳中雨水打湿了脸颊我在寒冷中不停的发抖我不是心很痛我不是不正常我不是不想要温暖和光亮我只是一个梦游人无法摆脱这揪心的噩梦我多想醒来 不再受伤害像梦游人一样期待光芒和未来如果是场梦别让我醒来雨夜才能感受你假装给的温暖我多想醒来rap:谁会对我说这原本就是一场梦呢醒就醒了谁还会再提起什么呢说是梦了谁出现过又能怎样呢醒了睁开眼了还不是自己生活么爱了痛了分了散了留恋还有意义么走了淡了远了忘了这样做还值得么我不是醒不来我不是放不开我只是一个梦游人我还在期待着爱]]></content>
-      <categories>
-        <category>yls</category>
-      </categories>
+    <title><![CDATA[Node安装与使用]]></title>
+    <url>2019/08/10/node/</url>
+    <content type="text"><![CDATA[本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。 安装NodeNode官网下载Node软件， 安装到指定位置，如D:\Program\nodejs，安装完成后环境变量PATH 内会有刚刚安装Node的安装目录D:\Program\nodejs。 查看是否安装成功node -vnpm配置修改查看全局包位置npm root -g查看prefix和cache路径配置信息npm config get cache npm config get prefix查看npm配置信息npm config list修改全局包默认安装位置D:\Program\nodejs目录下新建目录node_global， 执行以下命令： npm config set prefix &quot;D:\Program\nodejs\node_global&quot; 注意： 将D:\Program\nodejs\node_global 和 D:\Program\nodejs\node_modules目录添加入环境变量PATH内。 修改cache默认安装位置D:\Program\nodejs目录下新建目录node_cache， 执行以下命令： npm config set cache &quot;D:\Program\nodejs\node_cache&quot;设置npm镜像源npm config set registry https://registry.npm.taobao.org --global npm config set disturl https://npm.taobao.org/dist --global]]></content>
       <tags>
-        <tag>音乐</tag>
+        <tag>Node</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[第一篇文章]]></title>
-    <url>2019/08/08/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content type="text"><![CDATA[sjidlasssadk sad asd asdadsa]]></content>
+    <title><![CDATA[Hello World]]></title>
+    <url>2019/08/08/hello-world/</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>

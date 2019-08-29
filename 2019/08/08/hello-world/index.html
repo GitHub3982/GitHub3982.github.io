@@ -20,6 +20,21 @@
   <script src="/js/pace.min.js"></script>
 </head>
 </html>
+<link href="https://cdn.staticfile.org/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+<style>
+::-webkit-scrollbar {  //隐藏滚轮display: none;
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: #eee;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background: #666;
+}
+</style>
 <body>
 <main class="content">
   <section class="outer">
@@ -46,8 +61,8 @@
 
     
       <div class="article-meta">
-        <a href="/2019/08/23/hello-world/" class="article-date">
-  <time datetime="2019-08-23T14:16:54.465Z" itemprop="datePublished">2019-08-23</time>
+        <a href="/2019/08/08/hello-world/" class="article-date">
+  <time datetime="2019-08-08T08:21:54.000Z" itemprop="datePublished">2019-08-08</time>
 </a>
         
       </div>
@@ -71,6 +86,8 @@
 
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -87,9 +104,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/23/hello-world/" data-id="cjztdfrko00025wq03l2u11xo"
+      <a data-url="https://github3982.github.io/2019/08/08/hello-world/" data-id="cjzuqbx7o0000ywq0wvyu8eku"
          class="article-share-link">分享</a>
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
     </footer>
 
   </div>
@@ -98,11 +117,15 @@
     
   <nav class="article-nav">
     
-    
-      <a href="/2019/08/08/第二篇/" class="article-nav-link">
-        <strong class="article-nav-caption">后一篇</strong>
-        <div class="article-nav-title">第二篇</div>
+      <a href="/2019/08/10/node/" class="article-nav-link">
+        <strong class="article-nav-caption">前一篇</strong>
+        <div class="article-nav-title">
+          
+            Node安装与使用
+          
+        </div>
       </a>
+    
     
   </nav>
 
@@ -129,8 +152,8 @@
     </div>
     <ul class="list-inline">
       <li>&copy; 2019 知音圈</li>
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>Theme  <a href="javascript:;">Ocean</a></li>
+      <li>Powered by <a>Hexo</a></li>
+      <li>Theme  <a>Ocean</a></li>
     </ul>
   </div>
 </footer>
@@ -233,3 +256,16 @@
 </body>
 </html>
 <script type="text/javascript" src="../dist/music.js"></script>
+<script src="js/scrollReveal.js"></script>
+</script>
+
+	  <script>
+			  $(function(){
+    $('div img').addClass('wdata-scroll-reveal');
+});
+</script>
+<script>
+window.scrollReveal = new scrollReveal();
+//或者，elem 为动画元素的任何级别的父元素
+window.scrollReveal2 = new scrollReveal({elem: document.getElementById('srcontainer')});
+</script>	

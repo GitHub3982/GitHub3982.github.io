@@ -20,6 +20,21 @@
   <script src="/js/pace.min.js"></script>
 </head>
 </html>
+<link href="https://cdn.staticfile.org/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+<style>
+::-webkit-scrollbar {  //隐藏滚轮display: none;
+	width: 6px;
+	height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: #eee;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background: #666;
+}
+</style>
 <body>
 <main class="content">
   <section class="outer">
@@ -59,7 +74,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/playlist/music.html" data-id="cjztdfrpl000g5wq0tb25my4r"
+      <a data-url="https://github3982.github.io/playlist/music.html" data-id="cjzuqbxcf000hywq0j435arzn"
          class="article-share-link">分享</a>
       
     </footer>
@@ -89,8 +104,8 @@
     </div>
     <ul class="list-inline">
       <li>&copy; 2019 知音圈</li>
-      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
-      <li>Theme  <a href="javascript:;">Ocean</a></li>
+      <li>Powered by <a>Hexo</a></li>
+      <li>Theme  <a>Ocean</a></li>
     </ul>
   </div>
 </footer>
@@ -178,3 +193,16 @@
 </body>
 </html>
 <script type="text/javascript" src="../dist/music.js"></script>
+<script src="js/scrollReveal.js"></script>
+</script>
+
+	  <script>
+			  $(function(){
+    $('div img').addClass('wdata-scroll-reveal');
+});
+</script>
+<script>
+window.scrollReveal = new scrollReveal();
+//或者，elem 为动画元素的任何级别的父元素
+window.scrollReveal2 = new scrollReveal({elem: document.getElementById('srcontainer')});
+</script>	

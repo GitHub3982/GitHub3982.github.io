@@ -7,6 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
+    Node安装与使用 |
     
     知音圈</title>
   
@@ -36,43 +37,8 @@
 </style>
 <body>
 <main class="content">
-  <section class="jumbotron">
-  <div class="video">
-    
-      <div class="video-frame">
-        <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
-      </div>
-    
-    <div class="video-media">
-      <video playsinline="" autoplay="" loop="" muted="" data-autoplay=""
-             poster="/images/ocean/ocean.png" x5-video-player-type="h5">
-        <source src="/images/ocean/ocean.mp4" type="video/mp4">
-        <source src="/images/ocean/ocean.ogv" type="video/ogg">
-        <source src="/images/ocean/ocean.webm" type="video/webm">
-        <p>Your user agent does not support the HTML5 Video element.</p>
-      </video>
-      <div class="video-overlay"></div>
-    </div>
-    <div class="video-inner text-center text-white">
-      <h1><a href="/">知音圈</a></h1>
-      <p>有梦想就出发，或许会遇到有趣的人</p>
-      <div><img src="/images/hexo-inverted.svg" class="brand" alt="知音圈"></div>
-    </div>
-    <div class="video-learn-more">
-      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
-    </div>
-  </div>
-</section>
-
-<div id="landingpage">
   <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title"></h1>
-
-    
-      
-        
+  
 
 <article id="post-node" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
   
@@ -81,9 +47,9 @@
       <header class="article-header">
         
   
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/08/10/node/">Node安装与使用</a>
-    </h2>
+    <h1 class="article-title" itemprop="name">
+      Node安装与使用
+    </h1>
   
   
 
@@ -103,6 +69,14 @@
     
 
     
+      
+    <div class="tocbot"></div>
+
+
+
+
+
+    
 
     <div class="article-entry" itemprop="articleBody">
       
@@ -112,9 +86,18 @@
 
       
         <p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p>
-        
-          <a class="article-more-link" href="/2019/08/10/node/">阅读全文...</a>
-        
+<a id="more"></a>
+<h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p>
+<h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cache
+
+npm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p>
+<pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote>
+<p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p>
+</blockquote>
+<h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p>
+<pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --global
+
+npm config set disturl https://npm.taobao.org/dist --global</code></pre>
       
     </div>
     <footer class="article-footer">
@@ -128,85 +111,29 @@
   </div>
 
   
+    
+  <nav class="article-nav">
+    
+    
+      <a href="/2019/08/08/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">后一篇</strong>
+        <div class="article-nav-title">Hello World</div>
+      </a>
+    
+  </nav>
 
+
+  
+
+  
+    
   
 
 </article>
 
 
 
-      
-        
-
-<article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
-  
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/08/08/hello-world/">Hello World</a>
-    </h2>
-  
-  
-
-
-
-
-      </header>
-    
-
-    
-      <div class="article-meta">
-        <a href="/2019/08/08/hello-world/" class="article-date">
-  <time datetime="2019-08-08T08:21:54.000Z" itemprop="datePublished">2019-08-08</time>
-</a>
-        
-      </div>
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-
-      
-
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-        
-          <a class="article-more-link" href="/2019/08/08/hello-world/">阅读全文...</a>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://github3982.github.io/2019/08/08/hello-world/" data-id="cjzuqbx7o0000ywq0wvyu8eku"
-         class="article-share-link">分享</a>
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
-
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-
-
-
-      
-  </article>
-  
-
-  
 </section>
-</div>
-
   <footer class="footer">
   <div class="outer">
     <div class="float-right">
@@ -226,8 +153,8 @@
 
 </main>
 
-  <aside class="sidebar">
-    
+<aside class="sidebar sidebar-specter">
+  
     <button class="navbar-toggle"></button>
 <nav class="navbar">
   
@@ -300,6 +227,21 @@
   <script src="/fancybox/jquery.fancybox.min.js"></script>
 
 
+
+  <script src="/js/tocbot.min.js"></script>
+  <script>
+    // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+    tocbot.init({
+      tocSelector: '.tocbot',
+      contentSelector: '.article-entry',
+      headingSelector: 'h1, h2, h3, h4, h5, h6',
+      hasInnerContainers: true,
+      scrollSmooth: true,
+      positionFixedSelector: '.tocbot',
+      positionFixedClass: 'is-position-fixed',
+      fixedSidebarOffset: 'auto',
+    });
+  </script>
 
 
 <script src="/js/ocean.js"></script>

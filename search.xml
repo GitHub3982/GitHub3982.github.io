@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Fira Code | 为写程序而生的字体]]></title>
+    <url>2019/08/12/FiraCode%E4%B8%BA%E5%86%99%E7%A8%8B%E5%BA%8F%E8%80%8C%E7%94%9F%E7%9A%84%E5%AD%97%E4%BD%93/</url>
+    <content type="text"><![CDATA[程序员福利！！！今天为大家带来一个专为程序员写程序设计的字体 —— Fira Code Fira 是 Mozilla 公司（火狐浏览器她爹）主推的字体系列。Fira Code 是其中的一员，专为写程序而生。出来具有等宽等基本属性外，还加入了编程连字特性（ligatures）。 程序员福利！！！ 今天为大家带来一个专为程序员写程序设计的字体 —— Fira Code Fira 是 Mozilla 公司（火狐浏览器她爹）主推的字体系列。Fira Code 是其中的一员，专为写程序而生。出来具有等宽等基本属性外，还加入了编程连字特性（ligatures）。Fira Code 就是利用这个特性对编程中的常用符号进行优化，比如把输入的「!=」直接显示成「≠」或者把「&gt;=」变成「≥ 」等等，以此来提高代码的可读性。 #代码示例Ruby:JavaScript:Erlang:Elixir:Go:LiveScript:Clojure:Swift: #正文 安装 Fira Code 使用 .ttf 文件安装访问此网站 https://github.com/tonsky/FiraCode 找到 Download 这个链接，单击它。单击这个地址可以下载 v1.204 版的 Fira Code -&gt; Download v1.204 下载好后，解压它。 打开解压后得到的文件夹。 打开 /ttf文件夹。 会看到以下文件Ctrl+A 全选 -&gt; 右键 -&gt; 安装。 使用 Chocolate 安装关于 Chocolate，请参考这篇文章。 使用以下命令安装 $ choco install firacode 如何使用 只有以下编辑器、浏览器可以完美支持 Fira Code： 支持的编辑器 https://mogeko.me/2017/006/#%E6%94%AF%E6%8C%81%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8 VS Code 介绍一下在 VS Code 中如何配置（因为VS Code 是我主要使用的编辑器，别的不是很熟悉） 打开 VS Code。 文件 -&gt; 首选项 -&gt; 设置然后在右边的窗口中添加 &quot;editor.fontFamily&quot;: &quot;Fira Code&quot;, &quot;editor.fontLigatures&quot;: trueCtrl+S 保存。如果没有生效就使用以下代码 &quot;editor.fontFamily&quot;: &quot;&apos;Fira Code&apos;&quot;, &quot;editor.fontLigatures&quot;: trueCtrl+S 保存。 别的编辑器可以参考 -&gt; https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures Chrome 可以将 Fira Code 设为 Chrome 的 等宽字体。 打开 Chrome。点击右上角的 ┇ -&gt; 设置 选择 自定义字体 宽度固定的字体 -&gt; 在下拉菜单中选择 Fira Code]]></content>
+      <tags>
+        <tag>Node</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Node安装与使用]]></title>
     <url>2019/08/10/node/</url>
     <content type="text"><![CDATA[本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。 安装NodeNode官网下载Node软件， 安装到指定位置，如D:\Program\nodejs，安装完成后环境变量PATH 内会有刚刚安装Node的安装目录D:\Program\nodejs。 查看是否安装成功node -vnpm配置修改查看全局包位置npm root -g查看prefix和cache路径配置信息npm config get cache npm config get prefix查看npm配置信息npm config list修改全局包默认安装位置D:\Program\nodejs目录下新建目录node_global， 执行以下命令： npm config set prefix &quot;D:\Program\nodejs\node_global&quot; 注意： 将D:\Program\nodejs\node_global 和 D:\Program\nodejs\node_modules目录添加入环境变量PATH内。 修改cache默认安装位置D:\Program\nodejs目录下新建目录node_cache， 执行以下命令： npm config set cache &quot;D:\Program\nodejs\node_cache&quot;设置npm镜像源npm config set registry https://registry.npm.taobao.org --global npm config set disturl https://npm.taobao.org/dist --global]]></content>

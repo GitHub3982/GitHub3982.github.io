@@ -1992,7 +1992,7 @@ a.toc-link {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #f6f8fa;
+  background: #e6e4e4;
   padding: 1.5rem;
   margin: 1.5rem 0;
   -webkit-border-radius: 0.4rem;
@@ -2011,7 +2011,7 @@ a.toc-link {
   text-shadow: none;
 }
 .article-entry code {
-  background: #f6f8fa;
+  background: #e6e4e4;
   padding: 0.25rem;
   -webkit-border-radius: 0.4rem;
   -moz-border-radius: 0.4rem;
@@ -2067,7 +2067,7 @@ a.toc-link {
   background: #d6d6d6;
 }
 .article-entry .gist {
-  background: #f6f8fa;
+  background: #e6e4e4;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -2090,7 +2090,7 @@ a.toc-link {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #f6f8fa;
+  background: #e6e4e4;
   color: #8e908c;
   padding: 0;
   margin-top: 1rem;

@@ -134,19 +134,10 @@
   // justifiedGallery
   $('#gallery').justifiedGallery({
     rowHeight : 200,
-    margins : 5,
-	waitThumbnailsLoad : false
+    margins : 5
   });
-$(window).scroll(function() {
-  if($(window).scrollTop() + $(window).height() == $(document).height()) {
-    for (var i = 0; i < 5; i++) {
-      $('#gallery').append('<a>' +
-          '<img src="..images/loading.gif" />' + 
-          '</a>');
-    }
-    $('#gallery').justifiedGallery('norewind');
-  }
-});
+
+
 
   //
   $(document).ready(function ($) {

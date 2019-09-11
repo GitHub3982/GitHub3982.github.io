@@ -133,7 +133,7 @@
   //
   // justifiedGallery
   $('#gallery').justifiedGallery({
-    rowHeight : 200,
+    rowHeight : 180,
     margins : 5
   });
 

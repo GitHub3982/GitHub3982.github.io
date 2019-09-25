@@ -2510,3 +2510,81 @@ pre .javascript .function {
 ::-webkit-scrollbar-thumb:vertical {
   background: #666;
 }
+.page-type-title {
+  margin: 0;
+  padding: 3rem 0;
+  padding-bottom: 1.1rem;
+}
+.pagination {
+  padding: 0px 0 15px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+.pagination ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination a {
+  text-decoration: none;
+}
+.pagination .pre {
+  float: left;
+  margin-right: 6px;
+}
+.pagination ul li a {
+  text-decoration: none;
+}
+.pagination a.btn {
+  color: #868686;
+  font-weight: 400;
+}
+.pagination a:link,
+.pagination a:visited {
+  opacity: 1;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  -ms-transition: all 0.15s linear;
+  transition: all;
+  color: #424242;
+}
+[role="navigation"] {
+  padding: 0.5em 1em;
+  line-height: 0.666em;
+}
+.pagination .btn {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  color: rgba(0,0,0,0.44);
+  background: transparent;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.15);
+  white-space: nowrap;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-border-radius: 999em;
+  -moz-border-radius: 999em;
+  border-radius: 999em;
+}
+.pagination .btn:hover {
+  display: inline-block;
+  position: relative;
+  outline: 0px;
+  color: #464545;
+  background: transparent;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #464545;
+  white-space: nowrap;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-border-radius: 999em;
+  -moz-border-radius: 999em;
+  border-radius: 999em;
+}

@@ -66,17 +66,26 @@
 .v .vlist .vcard .vh .vmeta .vat {
     display: none;
 }
-@media screen and (min-width: 800px) { 
-.layui-hide-sm{
+@media screen and (max-width: 768px) { 
+#typed p{
     display: none;
 }
+}
+.v .vinfo .col {
+    display: none;
+}
+.v .vlist {
+    margin-top: 65px;
+}
+.pagination .pre {
+    margin-top: 4px;
 }
 </style>
 </head>
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
  <div class="about-life">
                 <div class="t-w">
-                <div class="t-u"><img height="120" src="https://chun-blog.cn/usr/themes/chun-blog/img/blog.png" style="height:120px;"></div>
+                <div class="t-u"><img src="https://chun-blog.cn/usr/themes/chun-blog/img/blog.png"></div>
                 <div class="t-t">
                     <h1 style="font-size:18px;">易小川<span><i></i>PHP后端开发工程师</span></h1>
                     <div class="t-d layui-hide-sm" style="display: none;">
@@ -86,40 +95,34 @@
                     <span id="typed"></span>
                     </div>
                     <div class="t-i">
-                        <a class="j" href="/about.html"> 关于我</a>
-                        <a class="j" href="/guestbook.html"> 留言</a>
+<div class="pagination">
+        <ul class="clearfix">
+            <li class="pre pagbuttons">
+                <a class="btn" role="navigation" href="../../archives"> 关于我</a>
+            </li>
+            <li class="pre pagbuttons">
+                <a class="btn" role="navigation" href="../../tags"> 留言</a>
+            </li>
+        </ul>
+    </div>
                     </div>
                 </div>
                 </div>
             </div>
             <div class="title-life">
-                <h3><i></i> 我的动态</h3>
-<div class="v">
-<div class="vinfo" style="display:block;"><div class="vcount col"><span class="vnum"></span> 评论ss</div></div>
-</div>
-<a href="/2019/09/09/使用Node开发一个命令行工具/#comments" itemprop="discussionUrl">
-   <span class="post-comments-count valine-comment-count" data-xid="/about/index2.html" itemprop="commentCount"></span>
- </a>
+                <h3><i class="fe fe-smile-alt"></i> 我的动态</h3>
 
-<div class="vcount col"><span class="vnum"></span> 评论</div>
+  <span class="r">
+<span class="valine-comment-count" data-xid="/about/index2.html">loading</span><span> 条动态，</span>
+<span id="/about/index2.html" class="leancloud-visitors ">
+<span class="leancloud-visitors-count">loading</span></span>
+<span>次观望</span></span>
 
+ </div>
 
-<p>  <span> 11 条动态，1591次观望</span><br> </p></div><p></p>
    <div id="vcomments"></div>
 
-<span id="<Your/Path/Name>" class="leancloud_visitors" data-flag-title="Your Article Title">
-   <em class="post-meta-item-text">阅读量 </em>
-   <i class="leancloud-visitors-count">1000000</i>
-</span>
 
-<span class="leancloud_visitors" data-flag-title="使用Node开发一个命令行工具">
-  <span class="post-meta-divider">|</span>
-  <span class="post-meta-item-icon">
-   <i class="fa fa-eye"></i>
-   </span>
-
-<p>   <span class="post-meta-item-text">阅读次数：</span></p>
-<p>   <span class="leancloud-visitors-count">3000</span><br>  </p></span><p></p>
 <script type="text/javascript" src="../js/vv.js"></script>
 <link rel="stylesheet" href="../css/vv.css">
 <style type="text/css">
@@ -154,7 +157,7 @@
    var boxObj = document.getElementById('typed');
    new Typed(boxObj,{
       // 注意：输出的可以是标签，将标签当节点运行。比如下面的h2
-      strings: ["<p>When i was seven years old, i caught the cicada and thought i could catch the summer. <br/>七岁的那一年 抓住那只蝉 以为能够抓住夏天 ---->></p>"],
+      strings: ["<p>When i was seven years old, i caught the cicada and thought i could catch the summer. </p><br/><span>七岁的那一年 抓住那只蝉 以为能够抓住夏天 ---->></span>"],
       typeSpeed:30 // 速度
    });
 </script>
@@ -164,7 +167,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github3982.github.io/about/index2.html" data-id="ck0yt7ae600037oq0vsipsk74"
+      <a data-url="https://github3982.github.io/about/index2.html" data-id="ck0yt8uz80003foq0gsgo9776"
          class="article-share-link">分享</a>
       
     </footer>

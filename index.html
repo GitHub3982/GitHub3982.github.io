@@ -20,33 +20,7 @@
 </head>
 </html>
 <link href="https://cdn.staticfile.org/animate.css/3.7.2/animate.min.css" rel="stylesheet">
-<style>
-::-webkit-scrollbar {  //隐藏滚轮display: none;
-	width: 6px;
-	height: 6px;
-}
 
-::-webkit-scrollbar-track-piece {
-	background: #eee;
-}
-
-::-webkit-scrollbar-thumb:vertical {
-	background: #666;
-
-
-.jg-entry-visible{
-	 position: relative;
-  /* 根据宽高比计算设置 box 的 padding-bottom */
-  padding-bottom: 62.5%;
-}
-.jg-entry-visible img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-	
-}
-</style>
 <body>
 <main class="content">
     <section class="jumbotron">
@@ -82,11 +56,107 @@
 </section>
 
 <div id="landingpage">
-  <section class="outer">
+  <style>
+.page-type-title {
+    margin: 0;
+    padding: 3rem 0;
+    padding-bottom: 1.1rem;
+}
+.pagination {
+    padding: 0px 0 15px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.pagination ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    //height: 13px;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+.pagination .pre {
+    float: left;
+	margin-right: 6px;
+}
+.pagination .next {
+    //float: right;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+}
+.pagination a.btn {
+    color: #868686;
+    font-weight: 400;
+}
+.pagination a:link, .pagination a:visited {
+    opacity: 1;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    transition: all .15s linear;
+    color: #424242;
+}
+[role="navigation"] {
+    padding: 0.5em 1.0em;
+    line-height: 0.666em;
+}
+.pagination .btn {
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    color: rgba(0, 0, 0, 0.44);
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 999em;
+}
+.pagination .btn:hover {
+    display: inline-block;
+    position: relative;
+    outline: 0px;
+    color: #464545;
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #464545;
+    white-space: nowrap;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 999em;
+}
+</style>
+<section class="outer">
   <article class="articles">
     
     <h1 class="page-type-title"></h1>
-
+	
+	<div class="pagination">
+		<ul class="clearfix">
+			<li class="pre pagbuttons">
+				<a class="btn" role="navigation" href="../../archives">归档</a>
+			</li>
+			<li class="pre pagbuttons">
+				<a class="btn" role="navigation" href="../../tags">标签</a>
+			</li>
+			<li class="next pagbuttons">
+				<a class="btn" role="navigation" href="../../categories">分类</a>
+			</li>
+		</ul>
+	</div>
+	
     
       
         
@@ -135,7 +205,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github3982.github.io/2019/08/15/md/" data-id="ck0p479s700098wq0b2f3guxh"
+      <a data-url="https://github3982.github.io/2019/08/15/md/" data-id="ck0xba63t0002doq0hndbflm7"
          class="article-share-link">分享</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/md/">md</a></li></ul>
@@ -180,6 +250,10 @@
   <time datetime="2019-08-12T12:56:43.000Z" itemprop="datePublished">2019-08-12</time>
 </a>
         
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/ifs/">ifs</a>
+  </div>
+
       </div>
     
 
@@ -194,7 +268,7 @@
     <div class="article-gallery-photos">
       
         
-          <a class="article-gallery-img" href="/2019/08/12/FiraCode为写程序而生的字体/" rel="gallery_ck0p479mh00008wq0ifll0dwb">
+          <a class="article-gallery-img" href="/2019/08/12/FiraCode为写程序而生的字体/" rel="gallery_ck0xba63e0000doq0sgfg2ghx">
             <img src="https://camo.githubusercontent.com/3a8948f34284f378ead7af5846aa432035c687ad/687474703a2f2f732e746f6e736b792e6d652f696d67732f666972615f636f64655f6c6f676f2e737667" itemprop="image">
           </a>
         
@@ -211,7 +285,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github3982.github.io/2019/08/12/FiraCode为写程序而生的字体/" data-id="ck0p479mh00008wq0ifll0dwb"
+      <a data-url="https://github3982.github.io/2019/08/12/FiraCode为写程序而生的字体/" data-id="ck0xba63e0000doq0sgfg2ghx"
          class="article-share-link">分享</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node/">Node</a></li></ul>
@@ -256,6 +330,10 @@
   <time datetime="2019-08-10T08:21:54.000Z" itemprop="datePublished">2019-08-10</time>
 </a>
         
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/sdd/">sdd</a>
+  </div>
+
       </div>
     
 
@@ -275,7 +353,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github3982.github.io/2019/08/10/node/" data-id="ck0p479sd000b8wq0xts1w0wl"
+      <a data-url="https://github3982.github.io/2019/08/10/node/" data-id="ck0xba6400005doq0iwn4jham"
          class="article-share-link">分享</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node/">Node</a></li></ul>
@@ -339,7 +417,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github3982.github.io/2019/08/08/hello-world/" data-id="ck0p479of00028wq0ajm216pk"
+      <a data-url="https://github3982.github.io/2019/08/08/hello-world/" data-id="ck0xba6450006doq00xckiwju"
          class="article-share-link">分享</a>
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>

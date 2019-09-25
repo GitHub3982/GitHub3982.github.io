@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
-    动态 |
+    categories.ejs: undefined |
     
     ZhiYinQ</title>
   
@@ -24,143 +24,156 @@
 
 <body>
 <main class="content">
-  <section class="outer">
-  
+  <style>
+.page-type-title {
+    margin: 0;
+    padding: 3rem 0;
+    padding-bottom: 1.1rem;
+}
+.pagination {
+    padding: 0px 0 15px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
 
-<article id="page-" class="article article-type-page" itemscope itemprop="blogPost" data-scroll-reveal>
-  
-  <div class="article-inner">
+.pagination ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    //height: 13px;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+.pagination .pre {
+    float: left;
+	margin-right: 6px;
+}
+.pagination .next {
+    //float: right;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+}
+.pagination a.btn {
+    color: #868686;
+    font-weight: 400;
+}
+.pagination a:link, .pagination a:visited {
+    opacity: 1;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    transition: all .15s linear;
+    color: #424242;
+}
+[role="navigation"] {
+    padding: 0.5em 1.0em;
+    line-height: 0.666em;
+}
+.pagination .btn {
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    color: rgba(0, 0, 0, 0.44);
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 999em;
+}
+.pagination .btn:hover {
+    display: inline-block;
+    position: relative;
+    outline: 0px;
+    color: #464545;
+    background: transparent;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #464545;
+    white-space: nowrap;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 999em;
+}
+</style>
+<section class="outer">
+  <article class="articles">
     
-      <header class="article-header">
+    <h1 class="page-type-title">#&nbspsdd</h1>
+	
+	<div class="pagination">
+		<ul class="clearfix">
+			<li class="pre pagbuttons">
+				<a class="btn" role="navigation" href="../../archives">归档</a>
+			</li>
+			<li class="pre pagbuttons">
+				<a class="btn" role="navigation" href="../../tags">标签</a>
+			</li>
+			<li class="next pagbuttons">
+				<a class="btn" role="navigation" href="../../categories">分类</a>
+			</li>
+		</ul>
+	</div>
+	
+    
+    
+    
+      
+      
         
+        
+    <div class="archives-wrap">
+      <div class="archive-year-wrap">
+        <a href="/archives/2019" class="archive-year">2019</a>
+      </div>
+      <div class="archives">
+        
+        <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2019/08/10/node/" class="archive-article-date">
+  <time datetime="2019-08-10T08:21:54.000Z" itemprop="datePublished">08/10</time>
+</a>
+      
   
-    <h1 class="article-title" itemprop="name">
-      动态
-    </h1>
+    <h2 itemprop="name">
+      <a class="archive-article-title" href="/2019/08/10/node/">Node安装与使用</a>
+    </h2>
   
   
 
 
 
 
-      </header>
+    </header>
     
-
-    
-
-    
-
-    <div class="article-entry" itemprop="articleBody">
       
-
-
-      
-
-      
-        <head><meta name="generator" content="Hexo 3.9.0">
-<link rel="stylesheet" href="../css/dongtai.css">
-<style>
-.v .vwrap {
-   display: none;
-}
-.v .vlist .vcard .vh .vmeta .vat {
-    display: none;
-}
-@media screen and (min-width: 800px) { 
-.layui-hide-sm{
-    display: none;
-}
-}
-</style>
-</head>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
- <div class="about-life">
-                <div class="t-w">
-                <div class="t-u"><img height="120" src="https://chun-blog.cn/usr/themes/chun-blog/img/blog.png" style="height:120px;"></div>
-                <div class="t-t">
-                    <h1 style="font-size:18px;">易小川<span><i></i>PHP后端开发工程师</span></h1>
-                    <div class="t-d layui-hide-sm">
-                        <p>七岁的那一年 抓住那只蝉 以为能够抓住夏天</p>
-                    </div>
-                    <div class="t-d">
-                    <span id="typed"></span>
-                    </div>
-                    <div class="t-i">
-                        <a class="j" href="/about.html"> 关于我</a>
-                        <a class="j" href="/guestbook.html"> 留言</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="title-life">
-                <h3><i></i> 我的动态</h3>
-    <div class="vcount col"><span class="vnum"></span> 评论</div>
-                <span> 11 条动态，1591次观望</span>
- </div>
-
-   <div id="vcomments"></div>
-<script type="text/javascript" src="../js/vv.js"></script>
-<link rel="stylesheet" href="../css/vv.css">
-<style type="text/css">
-    /* 如果光标没出现，而是出现在下一行，那么就是盒子是块级标签，必须得转换成行内标签 */
-    .t-d p {
-        display: inline;
-    }
-    /* 想让的光标闪动的话，复制下面的代码 */
-    .typed-cursor{
-        opacity: 1;
-        animation: typedjsBlink 0.7s infinite;
-        -webkit-animation: typedjsBlink 0.7s infinite;
-        animation: typedjsBlink 0.7s infinite;
-    }
-    @keyframes typedjsBlink{
-        50% { opacity: 0.0; }
-    }
-    @-webkit-keyframes typedjsBlink{
-        0% { opacity: 1; }
-        50% { opacity: 0.0; }
-        100% { opacity: 1; }
-    }
-    .typed-fade-out{
-        opacity: 0;
-        transition: opacity .25s;
-        -webkit-animation: 0;
-        animation: 0;
-    }
-</style>
-<script type="text/javascript" src="../js/typed.js"></script>
-<script>
-   var boxObj = document.getElementById('typed');
-   new Typed(boxObj,{
-      // 注意：输出的可以是标签，将标签当节点运行。比如下面的h2
-      strings: ["<p>When i was seven years old, i caught the cicada and thought i could catch the summer. <br/>七岁的那一年 抓住那只蝉 以为能够抓住夏天 ---->></p>"],
-      typeSpeed:30 // 速度
-   });
-</script>
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://github3982.github.io/about/index2.html" data-id="ck0xba63r0001doq0sfv8qbix"
-         class="article-share-link">分享</a>
-      
-    </footer>
-
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/sdd/">sdd</a>
   </div>
 
-  
     
-
-  
-
-  
-
+    
+  </div>
 </article>
+        
+        
+      </div>
+    </div>
+    
+  
 
-
-
+  
 </section>
   <footer class="footer">
   <div class="outer">

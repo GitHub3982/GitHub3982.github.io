@@ -894,15 +894,19 @@ body ::selection {
 }
 a {
   color: #127ea9;
+  text-decoration: none;
 }
 a:hover {
   color: #1594c6;
 }
-a:active {
+text-decoration underline:active {
   color: #1178a1;
 }
-a.disabled {
+text-decoration underline.disabled {
   color: #adb5bd;
+}
+a:hover {
+  text-decoration: underline;
 }
 img {
   max-width: 100%;
@@ -2018,7 +2022,7 @@ a.toc-link {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #e6e4e4;
+  background: #f7f7f7;
   padding: 1.5rem;
   margin: 1.5rem 0;
   -webkit-border-radius: 0.4rem;
@@ -2037,7 +2041,7 @@ a.toc-link {
   text-shadow: none;
 }
 .article-entry code {
-  background: #e6e4e4;
+  background: #f7f7f7;
   padding: 0.25rem;
   -webkit-border-radius: 0.4rem;
   -moz-border-radius: 0.4rem;
@@ -2093,7 +2097,7 @@ a.toc-link {
   background: #d6d6d6;
 }
 .article-entry .gist {
-  background: #e6e4e4;
+  background: #f7f7f7;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -2116,7 +2120,7 @@ a.toc-link {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #e6e4e4;
+  background: #f7f7f7;
   color: #8e908c;
   padding: 0;
   margin-top: 1rem;
@@ -2598,7 +2602,7 @@ pre .javascript .function {
 }
 .pag {
   text-align: center;
-  padding: 0px 0 15px 0;
+  padding: 15px 0 5px 0;
 }
 .pag a:link,
 .pag a:visited {
@@ -2679,4 +2683,35 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+}
+.page-nav a,
+.page-nav span {
+  padding: 1rem 1.5rem;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  color: #868686;
+  background: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.15);
+  white-space: nowrap;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-border-radius: 999em;
+  -moz-border-radius: 999em;
+  border-radius: 999em;
+  padding: 5px 8px;
+}
+.page-nav span,
+.page-nav a:hover {
+  border: 1px solid #464545;
+}
+.page-nav .page-number {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
 }

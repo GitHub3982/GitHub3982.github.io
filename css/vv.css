@@ -46,8 +46,7 @@
   background: #1abc9c;
 }
 .v .vwrap .vedit .vctrl span.vpreview-btn,
-.v .vwrap .vcontrol .col.col-20,
-.v .vlist .vcard .vhead .vsys {
+.v .vwrap .vcontrol .col.col-20 {
   display: none;
 }
 @media screen and (max-width: 520px) {
@@ -64,3 +63,43 @@
   text-align: right;
   display: none;
 }
+.v .vbtn.vsubmit:hover {
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 44px;
+  width: 100%;
+  border: none;
+  background: #7ed0c0;
+}
+.v .vlist .vcard .vh .vmeta .vat:hover {
+  font-size: 0.8125em;
+  color: #127ea9;
+  cursor: pointer;
+  float: right;
+}
+.v .vlist .vcard .vhead .vsys {
+  padding: 0em 0.3em;
+}
+.v .vlist .vcard .vhead .vnick {
+  font-size: 0.98em;
+}
+/*动态横线
+.v .vlist .vcard .vh .vmeta .vat:hover:before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.v .vlist .vcard  .vh .vmeta .vat:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: #1abc9c;
+    -webkit-transition: width .3s ease;
+    transition: width .3s ease;
+}
+*/

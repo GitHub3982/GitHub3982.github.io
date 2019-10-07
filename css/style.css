@@ -1502,7 +1502,7 @@ img {
 }
 .article-nav-link {
   display: block;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .article-nav-link:first-child {
   float: left;
@@ -2391,7 +2391,7 @@ pre .javascript .function {
   content: '\f12f';
 }
 .navbar .nav.nav-main .nav-item:nth-child(2) .nav-item-link::before {
-  content: '\f12a';
+  content: '\f1bd';
 }
 .navbar .nav.nav-main .nav-item:nth-child(3) .nav-item-link::before {
   content: '\f1a9';

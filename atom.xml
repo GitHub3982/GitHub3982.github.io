@@ -220,8 +220,8 @@
   
   <entry>
     <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(13)/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本 (13)/</id>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(12)/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本 (12)/</id>
     <published>2019-08-10T08:21:54.000Z</published>
     <updated>2019-09-21T09:30:05.278Z</updated>
     
@@ -264,52 +264,8 @@
   
   <entry>
     <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本/</id>
-    <published>2019-08-10T08:21:54.000Z</published>
-    <updated>2019-09-21T09:30:05.278Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
-    
-    
-      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Node安装与使用</title>
     <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(9)/"/>
     <id>https://github3982.github.io/2019/08/10/node - 副本 (9)/</id>
-    <published>2019-08-10T08:21:54.000Z</published>
-    <updated>2019-09-21T09:30:05.278Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
-    
-    
-      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(7)/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本 (7)/</id>
     <published>2019-08-10T08:21:54.000Z</published>
     <updated>2019-09-21T09:30:05.278Z</updated>
     
@@ -352,30 +308,8 @@
   
   <entry>
     <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本 (5)/</id>
-    <published>2019-08-10T08:21:54.000Z</published>
-    <updated>2019-09-21T09:30:05.278Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
-    
-    
-      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本 (6)/</id>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本/</id>
     <published>2019-08-10T08:21:54.000Z</published>
     <updated>2019-09-21T09:30:05.278Z</updated>
     
@@ -418,8 +352,74 @@
   
   <entry>
     <title>Node安装与使用</title>
-    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(10)/"/>
-    <id>https://github3982.github.io/2019/08/10/node - 副本 (10)/</id>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(7)/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本 (7)/</id>
+    <published>2019-08-10T08:21:54.000Z</published>
+    <updated>2019-09-21T09:30:05.278Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
+    
+    
+      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node安装与使用</title>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本 (6)/</id>
+    <published>2019-08-10T08:21:54.000Z</published>
+    <updated>2019-09-21T09:30:05.278Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
+    
+    
+      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node安装与使用</title>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本 (5)/</id>
+    <published>2019-08-10T08:21:54.000Z</published>
+    <updated>2019-09-21T09:30:05.278Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p><a id="more"></a><h1 id="安装Node"><a href="#安装Node" class="headerlink" title="安装Node"></a>安装Node</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node官网</a>下载Node<br>软件， 安装到指定位置，如<strong>D:\Program\nodejs</strong>，安装完成后环境变量<strong>PATH</strong> 内会有刚刚安装Node的安装目录<strong>D:\Program\nodejs</strong>。</p><h1 id="查看是否安装成功"><a href="#查看是否安装成功" class="headerlink" title="查看是否安装成功"></a>查看是否安装成功</h1><pre><code>node -v</code></pre><h1 id="npm配置修改"><a href="#npm配置修改" class="headerlink" title="npm配置修改"></a>npm配置修改</h1><h2 id="查看全局包位置"><a href="#查看全局包位置" class="headerlink" title="查看全局包位置"></a>查看全局包位置</h2><pre><code>npm root -g</code></pre><h2 id="查看prefix和cache路径配置信息"><a href="#查看prefix和cache路径配置信息" class="headerlink" title="查看prefix和cache路径配置信息"></a>查看prefix和cache路径配置信息</h2><pre><code>npm config get cachenpm config get prefix</code></pre><h2 id="查看npm配置信息"><a href="#查看npm配置信息" class="headerlink" title="查看npm配置信息"></a>查看npm配置信息</h2><pre><code>npm config list</code></pre><h2 id="修改全局包默认安装位置"><a href="#修改全局包默认安装位置" class="headerlink" title="修改全局包默认安装位置"></a>修改全局包默认安装位置</h2><p>D:\Program\nodejs目录下新建目录node_global， 执行以下命令：</p><pre><code>npm config set prefix &quot;D:\Program\nodejs\node_global&quot;</code></pre><blockquote><p>注意： 将<strong>D:\Program\nodejs\node_global</strong> 和 <strong>D:\Program\nodejs\node_modules</strong>目录添加入环境变量PATH内。</p></blockquote><h2 id="修改cache默认安装位置"><a href="#修改cache默认安装位置" class="headerlink" title="修改cache默认安装位置"></a>修改cache默认安装位置</h2><p><strong>D:\Program\nodejs</strong>目录下新建目录<strong>node_cache</strong>， 执行以下命令：</p><pre><code>npm config set cache  &quot;D:\Program\nodejs\node_cache&quot;</code></pre><h1 id="设置npm镜像源"><a href="#设置npm镜像源" class="headerlink" title="设置npm镜像源"></a>设置npm镜像源</h1><pre><code>npm config set registry https://registry.npm.taobao.org --globalnpm config set disturl https://npm.taobao.org/dist --global</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="sdd" scheme="https://github3982.github.io/categories/sdd/"/>
+    
+    
+      <category term="Node" scheme="https://github3982.github.io/tags/Node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node安装与使用</title>
+    <link href="https://github3982.github.io/2019/08/10/node%20-%20%E5%89%AF%E6%9C%AC%20(11)/"/>
+    <id>https://github3982.github.io/2019/08/10/node - 副本 (11)/</id>
     <published>2019-08-10T08:21:54.000Z</published>
     <updated>2019-09-21T09:30:05.278Z</updated>
     

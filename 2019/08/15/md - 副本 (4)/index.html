@@ -68,9 +68,10 @@
   <time datetime="2019-08-15T05:25:43.000Z" itemprop="datePublished">2019-08-15</time>
 </a>
         
+		&emsp;<i class="fe fe-bar-chart"></i> <span class="post-count">1.4k</span>字
+		&emsp;<i class="fe fe-clock"></i> <span class="post-count">5</span>分钟
       </div>
     
-
     
       
     <div class="tocbot"></div>
@@ -84,7 +85,6 @@
     <div class="article-entry" itemprop="articleBody">
       
       
-
       
         <p>Markdown 基本语法在 Ocean 中的展现形式，此文完全是从 <a href="https://github.com/younghz/Markdown" title="younghz/Markdown" target="_blank" rel="noopener">younghz/Markdown</a> Clone 下来的，为了为自己查阅语法方便，也为想要使用 Ocean 的同学们提供示例，进而快速认知 Ocean 是否适合你的 Hexo ！</p>
 <a id="more"></a>
@@ -255,10 +255,13 @@
       
     </div>
     <footer class="article-footer">
-      <!--<a data-url="https://github3982.github.io/2019/08/15/md - 副本 (4)/" data-id="ck1smcd9w000wmkq0s06dif1d"
+      <!--<a data-url="https://github3982.github.io/2019/08/15/md - 副本 (4)/" data-id="ck1vxnbq6000ziwq0vkuemz3g"
          class="article-share-link">分享</a>“”“分享按钮”“”-->
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/md/">md</a></li></ul>
+
+	  
+	<div style="text-align:center;color: #ccc;font-size:14px;">------------- 本文结束&nbsp;<i class="fe fe-smile"></i>&nbsp;感谢您的阅读 -------------</div>
 
     </footer>
 
@@ -268,17 +271,17 @@
     
   <nav class="article-nav">
     
-      <a href="/2019/08/15/md - 副本 (3)/" class="article-nav-link">
+      <a href="/2019/10/16/冒泡排序-快速排序-·-chanchifeng/" class="article-nav-link">
         <strong class="article-nav-caption">前一篇</strong>
         <div class="article-nav-title">
           
-            Markdown 基本语法在 Ocean 中的展现形式
+            冒泡排序 &amp; 快速排序 · chanchifeng
           
         </div>
       </a>
     
     
-      <a href="/2019/08/15/md - 副本 (5)/" class="article-nav-link">
+      <a href="/2019/08/15/md - 副本/" class="article-nav-link">
         <strong class="article-nav-caption">后一篇</strong>
         <div class="article-nav-title">Markdown 基本语法在 Ocean 中的展现形式</div>
       </a>
@@ -323,7 +326,7 @@
 <nav class="navbar">
   
     <div class="logo">
-      <a href="/"><img src="/images/hexo.svg" alt="ZhiYinQ"></a>
+      <a href="/"><img id="img" src="/images/hexo.svg" alt="ZhiYinQ"></a>
     </div>
   
   <ul class="nav nav-main">
@@ -406,6 +409,15 @@
       fixedSidebarOffset: 'auto',
     });
   </script>
+
+
+
+<script>
+// 使用fancybox来显示post图片集(#andus-head-img为头像id)
+$('img:not(#img)').each(function() {
+  $(this).wrap('<a class="fancybox" data-fancybox="gallery" href="' + $(this).prop("src") + '"></a>'); 
+})
+</script>
 
 
 <script src="/js/ocean.js"></script>

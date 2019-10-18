@@ -72,9 +72,10 @@
     <a class="article-category-link" href="/categories/sdd/">sdd</a>
   </div>
 
+		&emsp;<i class="fe fe-bar-chart"></i> <span class="post-count">247</span>字
+		&emsp;<i class="fe fe-clock"></i> <span class="post-count">1</span>分钟
       </div>
     
-
     
       
     <div class="tocbot"></div>
@@ -88,7 +89,6 @@
     <div class="article-entry" itemprop="articleBody">
       
       
-
       
         <p>本文介绍了Node的安装，npm全局包位置和cache默认安装位置的更改，以及设置npm镜像源加快包下载。</p>
 <a id="more"></a>
@@ -106,10 +106,13 @@ npm config set disturl https://npm.taobao.org/dist --global</code></pre>
       
     </div>
     <footer class="article-footer">
-      <!--<a data-url="https://github3982.github.io/2019/08/10/node - 副本/" data-id="ck1smcdb8002cmkq0410ozwe7"
+      <!--<a data-url="https://github3982.github.io/2019/08/10/node - 副本/" data-id="ck1vxnbrs002jiwq0s0x79jry"
          class="article-share-link">分享</a>“”“分享按钮”“”-->
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node/">Node</a></li></ul>
+
+	  
+	<div style="text-align:center;color: #ccc;font-size:14px;">------------- 本文结束&nbsp;<i class="fe fe-smile"></i>&nbsp;感谢您的阅读 -------------</div>
 
     </footer>
 
@@ -119,17 +122,17 @@ npm config set disturl https://npm.taobao.org/dist --global</code></pre>
     
   <nav class="article-nav">
     
-      <a href="/2019/08/12/FiraCode为写程序而生的字体/" class="article-nav-link">
+      <a href="/2019/08/10/node - 副本 (13)/" class="article-nav-link">
         <strong class="article-nav-caption">前一篇</strong>
         <div class="article-nav-title">
           
-            Fira Code | 为写程序而生的字体
+            Node安装与使用
           
         </div>
       </a>
     
     
-      <a href="/2019/08/10/node/" class="article-nav-link">
+      <a href="/2019/08/10/node - 副本 (14)/" class="article-nav-link">
         <strong class="article-nav-caption">后一篇</strong>
         <div class="article-nav-title">Node安装与使用</div>
       </a>
@@ -174,7 +177,7 @@ npm config set disturl https://npm.taobao.org/dist --global</code></pre>
 <nav class="navbar">
   
     <div class="logo">
-      <a href="/"><img src="/images/hexo.svg" alt="ZhiYinQ"></a>
+      <a href="/"><img id="img" src="/images/hexo.svg" alt="ZhiYinQ"></a>
     </div>
   
   <ul class="nav nav-main">
@@ -257,6 +260,15 @@ npm config set disturl https://npm.taobao.org/dist --global</code></pre>
       fixedSidebarOffset: 'auto',
     });
   </script>
+
+
+
+<script>
+// 使用fancybox来显示post图片集(#andus-head-img为头像id)
+$('img:not(#img)').each(function() {
+  $(this).wrap('<a class="fancybox" data-fancybox="gallery" href="' + $(this).prop("src") + '"></a>'); 
+})
+</script>
 
 
 <script src="/js/ocean.js"></script>

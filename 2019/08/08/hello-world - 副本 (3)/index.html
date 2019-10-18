@@ -68,9 +68,10 @@
   <time datetime="2019-08-08T08:21:54.000Z" itemprop="datePublished">2019-08-08</time>
 </a>
         
+		&emsp;<i class="fe fe-bar-chart"></i> <span class="post-count">109</span>字
+		&emsp;<i class="fe fe-clock"></i> <span class="post-count">1</span>分钟
       </div>
     
-
     
       
     <div class="tocbot"></div>
@@ -84,7 +85,6 @@
     <div class="article-entry" itemprop="articleBody">
       
       
-
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <a id="more"></a>
@@ -105,10 +105,13 @@
       
     </div>
     <footer class="article-footer">
-      <!--<a data-url="https://github3982.github.io/2019/08/08/hello-world - 副本 (3)/" data-id="ck1smcd8l0002mkq007adhx56"
+      <!--<a data-url="https://github3982.github.io/2019/08/08/hello-world - 副本 (3)/" data-id="ck1vxnboq0002iwq0z3imk8gm"
          class="article-share-link">分享</a>“”“分享按钮”“”-->
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+	  
+	<div style="text-align:center;color: #ccc;font-size:14px;">------------- 本文结束&nbsp;<i class="fe fe-smile"></i>&nbsp;感谢您的阅读 -------------</div>
 
     </footer>
 
@@ -118,7 +121,7 @@
     
   <nav class="article-nav">
     
-      <a href="/2019/08/10/node - 副本 (2)/" class="article-nav-link">
+      <a href="/2019/08/10/node - 副本 (3)/" class="article-nav-link">
         <strong class="article-nav-caption">前一篇</strong>
         <div class="article-nav-title">
           
@@ -173,7 +176,7 @@
 <nav class="navbar">
   
     <div class="logo">
-      <a href="/"><img src="/images/hexo.svg" alt="ZhiYinQ"></a>
+      <a href="/"><img id="img" src="/images/hexo.svg" alt="ZhiYinQ"></a>
     </div>
   
   <ul class="nav nav-main">
@@ -256,6 +259,15 @@
       fixedSidebarOffset: 'auto',
     });
   </script>
+
+
+
+<script>
+// 使用fancybox来显示post图片集(#andus-head-img为头像id)
+$('img:not(#img)').each(function() {
+  $(this).wrap('<a class="fancybox" data-fancybox="gallery" href="' + $(this).prop("src") + '"></a>'); 
+})
+</script>
 
 
 <script src="/js/ocean.js"></script>
